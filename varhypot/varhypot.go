@@ -1,7 +1,6 @@
-package varhypot
-
 // Package varhypot provides a variadic version of the mathematical hypot
 // function, accepting an arbitrary number of arguments.
+package varhypot
 
 import (
 	"math"
