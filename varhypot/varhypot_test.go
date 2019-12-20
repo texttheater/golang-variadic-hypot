@@ -52,3 +52,12 @@ func TestVarhypot(t *testing.T) {
 		}
 	}
 }
+
+func ExampleVarhypot() {
+	// Examples taken from
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot
+	fmt.Println(varhypot.Hypot(3, 4))    // prints 5
+	fmt.Println(varhypot.Hypot(5, 12))   // prints 13
+	fmt.Println(varhypot.Hypot(3, 4, 5)) // prints 7.0710678118654755
+	fmt.Println(varhypot.Hypot(-5))      // prints 5
+}
